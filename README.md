@@ -1,1 +1,1 @@
-## [Yuanwei Wu's webpage](https://ryancv.github.io/)
+## [Digital CV](https://ryancv.github.io/)
