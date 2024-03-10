@@ -4,7 +4,20 @@
 <head>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<style>
+/* Style for buttons */
+.button {
+margin: 5px;
+padding: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+    </style>
 <title>Emon Dey' Personal Page</title>
 </head>
 <body>
@@ -60,7 +73,11 @@
 	scenario under contested environment. To be specific, I am interested in reducing the packet loss due to the higher velocity difference among agents
 	participated in building the FL model.
 </p>
-  
+
+  <!-- Button 1 -->
+    <button class="button" onclick="scrollToSection('Publications')">Go to Section 1</button>
+
+<section id="Publications" style="height: 500px; background-color: #f0f0f0;">
 <h2>Publications</h2>
 <h3>Published Works</h3>
  <ul>
@@ -169,7 +186,14 @@
    </li>
 
  </ul>
-    
+</section>
+<!-- JavaScript code to handle button click and scrolling -->
+<script>
+function scrollToSection(sectionId) {
+    // Scroll to the specified section
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+</script>
 
 <h2> Education</h2>
 <ul>
