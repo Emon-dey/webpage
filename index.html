@@ -75,7 +75,8 @@ cursor: pointer;
 </p>
 
   <!-- Button 1 -->
-    <button class="button" onclick="scrollToSection('Publications')">Go to Section 1</button>
+<button class="button" onclick="scrollToSection('Publications')">Publications</button>
+<button class="button" onclick="scrollToSection('Education')">Education</button>
 
 <section id="Publications" style="height: 500px; background-color: #f0f0f0;">
 <h2>Publications</h2>
@@ -187,21 +188,14 @@ cursor: pointer;
 
  </ul>
 </section>
-<!-- JavaScript code to handle button click and scrolling -->
-<script>
-function scrollToSection(sectionId) {
-    // Scroll to the specified section
-    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-}
-</script>
-
+<section id="Education" style="height: 500px; background-color: #f0f0f0;">
 <h2> Education</h2>
 <ul>
 		<li><p>Doctor of Philosophy (Ph.D.) in Information Systems, UMBC, August 2019 - May 2024 (expected)</p></li>
 		<li><p>Master of Science (M.S.) in Information Systems, UMBC, August 2019 - May 2022</p></li>
 		<li><p>Bachelor of Science (B.Sc.) in Electrical and Electronic Engineering, Chittagong University of Engineering and Technology, July 2013 - October 2017</p></li>
 </ul>
-
+</section>
 <h2> Skills</h2>
 <ul>
 	<li><b>Programming Languages:</b> C, MATLAB, Python, R</li>
@@ -304,6 +298,13 @@ research paper</A></li>
   </footer>
 </div>
 </div> -->
+	<!-- JavaScript code to handle button click and scrolling -->
+<script>
+function scrollToSection(sectionId) {
+    // Scroll to the specified section
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+</script>
 
 </body>
 </html>
