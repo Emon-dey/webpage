@@ -8,8 +8,8 @@ table#tlayout {
 
 body {
 	background: white;
-	/* font-family: Georgia, serif; */
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Georgia, serif;
+	/*font-family: Arial, Helvetica, sans-serif; */
 	/* font-family: monaco, monospace; */
 	font-size: 12pt;
 	padding-bottom: 10px;
@@ -122,7 +122,7 @@ strong {
 
 h1, h2, h3 {
 	font-family: Georgia, serif;
-	color: #527bbd;
+	color: #ff7b54;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
