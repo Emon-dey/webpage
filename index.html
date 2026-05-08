@@ -11,20 +11,22 @@
   <main class="page-shell">
     <section class="hero" id="about">
       <div class="profile-card">
-        <img src="images/Image1.jpeg" alt="Emon Dey" class="profile-photo" />
+        <img src="images/new_image.jpg" alt="Emon Dey" class="profile-photo" />
         <div>
           <p class="eyebrow">Postdoctoral Appointee, Argonne National Laboratory</p>
           <h1>Emon Dey</h1>
           <p class="lead">
             AI/HPC engineer and researcher specializing in large-scale distributed training,
             scientific machine learning, federated learning, robotics, and efficient deep learning.
+            I build robust ML systems for scientific imaging, autonomous systems, power-grid
+            analytics, and cross-facility distributed computing.
           </p>
           <div class="link-row" aria-label="Profile links">
             <a href="mailto:edey@anl.gov">Email</a>
             <a href="https://scholar.google.com/citations?user=SzR73XIAAAAJ&hl=en&authuser=1">Google Scholar</a>
             <a href="https://github.com/Emon-dey">GitHub</a>
             <a href="https://linkedin.com/in/emon-dey-125883148/">LinkedIn</a>
-            <a href="https://drive.google.com/file/d/162lxunmqNQeUzpK0VKsqpdq_iiaVMENG/view?usp=sharing">Resume</a>
+            <a href="Resume_Emon-3.pdf">Resume</a>
           </div>
         </div>
       </div>
@@ -51,9 +53,12 @@
       <button class="tab-button" type="button" data-target="publications">Publications</button>
       <button class="tab-button" type="button" data-target="projects">Projects</button>
       <button class="tab-button" type="button" data-target="experience">Experience</button>
+      <button class="tab-button" type="button" data-target="teaching">Teaching</button>
       <button class="tab-button" type="button" data-target="skills">Skills</button>
+      <button class="tab-button" type="button" data-target="talks">Talks</button>
       <button class="tab-button" type="button" data-target="awards">Awards</button>
       <button class="tab-button" type="button" data-target="service">Service</button>
+      <button class="tab-button" type="button" data-target="links">Helpful Links</button>
     </nav>
 
     <section class="news-section" id="news" aria-labelledby="news-title">
@@ -62,54 +67,80 @@
         <h2 id="news-title">Recent News</h2>
         <div class="news-list" role="list">
           <button class="news-item active" type="button" data-news="0" role="listitem">
-            <span>Oct. 2025</span>
-            Fed-CASQ accepted at IEEE PerCom 2026.
+            <span>Apr. 2026</span>
+            SYNAPS-I real-time AI imaging work featured by APS News.
           </button>
           <button class="news-item" type="button" data-news="1" role="listitem">
-            <span>Apr. 2025</span>
-            Joined Argonne National Laboratory as a Postdoctoral Appointee.
+            <span>2026</span>
+            GridMind agentic AI project featured by Argonne MCS News.
           </button>
           <button class="news-item" type="button" data-news="2" role="listitem">
-            <span>Apr. 2025</span>
-            Efficient vision-language models survey accepted in WIREs Data Mining and Knowledge Discovery.
+            <span>2026</span>
+            FedQueue, Fed-CASQ, FedGALP, and SERN accepted or listed in 2026 venues.
           </button>
           <button class="news-item" type="button" data-news="3" role="listitem">
             <span>Apr. 2025</span>
-            E2RespUNet accepted at IEEE SMARTCOMP 2025.
+            Joined Argonne National Laboratory as a Postdoctoral Appointee.
           </button>
           <button class="news-item" type="button" data-news="4" role="listitem">
-            <span>Mar. 2025</span>
-            CoOpTex accepted at IEEE DCOSS-IoT 2025.
+            <span>2025</span>
+            WIREs survey, TAVIC-DAS, E2RespUNet, CoOpTex, and DACC-Comm published.
           </button>
         </div>
       </div>
       <aside class="news-panel" aria-live="polite">
-        <p class="panel-date" id="panel-date">Oct. 2025</p>
-        <h3 id="panel-title">Fed-CASQ accepted at IEEE PerCom 2026</h3>
+        <p class="panel-date" id="panel-date">Apr. 2026</p>
+        <h3 id="panel-title">SYNAPS-I featured by APS News</h3>
         <p id="panel-copy">
-          "Fed-CASQ: Enhancing Class-Wise Accuracy in Pervasive Federated Learning
-          with Class-Aware Scaling and Quantization" was accepted as a full paper in the main track.
+          The Argonne project on a real-time AI engine for large-scale imaging data at beamlines
+          was featured by APS News.
         </p>
-        <a id="panel-link" href="#publications">View publication</a>
+        <a id="panel-link" href="https://www.aps.anl.gov/APS-News/2026-04-02/real-time-ai-engine-poised-to-revolutionize-large-scale-imaging-data-at">Read feature</a>
       </aside>
     </section>
 
     <section class="tab-panels">
       <article class="tab-panel active" id="research">
-        <h2>Current Research</h2>
+        <h2>About and Current Research</h2>
+        <p>
+          I am a Postdoctoral Appointee in the Mathematics and Computer Science Division at
+          Argonne National Laboratory. I received my Ph.D. in Information Systems from the
+          University of Maryland, Baltimore County, where I worked with the Center for Real-time
+          Distributed Sensing and Autonomy and the Mobile, Pervasive, and Sensor Computing Lab
+          advised by Dr. Nirmalya Roy.
+        </p>
         <p>
           My work focuses on scalable AI training architectures for leadership-class HPC systems,
           scientific imaging, smart power-grid analytics, queue-aware federated learning, and robust
           communication protocols for distributed autonomous systems.
         </p>
+        <p>
+          During my Ph.D., I developed robust and communication-efficient federated learning
+          methods for non-IID data, lossy communication channels, model compression, adaptive
+          quantization, and ROS/ROS2-based heterogeneous robot experimentation. I received my
+          M.S. from UMBC in 2022 and my B.Sc. in Electrical and Electronic Engineering from
+          Chittagong University of Engineering and Technology.
+        </p>
+        <p>
+          A recurring part of this work is making FL communication robust in contested and
+          lossy environments, including packet-loss scenarios caused by high velocity differences
+          among collaborating robotic agents.
+        </p>
+        <div class="tag-row" aria-label="Research interests">
+          <span>High Performance Computing</span>
+          <span>Federated Learning</span>
+          <span>Deep Model Compression</span>
+          <span>Robotics</span>
+          <span>Generative AI</span>
+        </div>
         <div class="card-grid">
           <div class="info-card">
             <h3>Scientific machine learning</h3>
-            <p>Physics-aware Vision Transformers for ptychographic phase retrieval and real-time reconstruction.</p>
+            <p>Multi-modal and physics-aware Vision Transformers for ptychographic phase retrieval and real-time diffraction imaging.</p>
           </div>
           <div class="info-card">
             <h3>Federated learning</h3>
-            <p>Asynchronous, queue-aware, and communication-efficient learning under heterogeneous system delays.</p>
+            <p>Queue-aware asynchronous FL, continual FL, class-aware scaling, and federated training for smart-grid systems.</p>
           </div>
           <div class="info-card">
             <h3>Robotics and CPS</h3>
@@ -123,12 +154,14 @@
         <ul class="timeline">
           <li>
             <strong>Ph.D. in Information Systems, AI/ML Track</strong>
-            <span>University of Maryland, Baltimore County, Apr. 2025</span>
+            <span>University of Maryland, Baltimore County, Aug. 2019 - Apr. 2025</span>
             <p>Dissertation: A Robust and Resilient Federated Learning Framework over Lossy Communication Channels.</p>
+            <p>Advisor: <a href="https://mpsc.umbc.edu/nroy">Dr. Nirmalya Roy</a>.</p>
           </li>
           <li>
             <strong>M.S. in Information Systems, AI/ML Track</strong>
             <span>University of Maryland, Baltimore County, May 2022</span>
+            <p>CGPA: 3.97/4.0.</p>
           </li>
           <li>
             <strong>B.Sc. in Electrical and Electronic Engineering</strong>
@@ -138,64 +171,419 @@
       </article>
 
       <article class="tab-panel" id="publications">
-        <h2>Selected Publications</h2>
-        <ul class="publication-list">
-          <li><strong>ICML 2026:</strong> Li, Y., <b>Dey, E.</b>, Li, Z., Raghavan, K., Madduri, R., and Kim, K. "FedQueue: Queue-Aware Federated Learning for Cross-Facility HPC Training."</li>
-          <li><strong>PerCom 2026:</strong> <b>Dey, E.</b>, Ravi, A., Shinde, G., Chugh, G., Ghosh, I., Misra, A., and Roy, N. "Fed-CASQ: Enhancing Class-Wise Accuracy in Pervasive Federated Learning with Class-Aware Scaling and Quantization."</li>
-          <li><strong>COMSNETS 2025:</strong> <b>Dey, E.</b>, Ravi, A., Lewis, J., Kumar, V. K., Freeman, J., Gregory, T., Suri, N., Busart, C., and Roy, N. "DACC-Comm: DNN-Powered Adaptive Compression and Flow Control for Robust Communication in Network-Constrained Environments."</li>
-          <li><strong>ICCCN 2023:</strong> <b>Dey, E.</b>, Walczak, M., Anwar, M. S., Roy, N., Freeman, J., Gregory, T., and Busart, C. "A Novel ROS2 QoS Policy-Enabled Synchronizing Middleware for Co-Simulation of Heterogeneous Multi-Robot Systems."</li>
-          <li><strong>SMARTCOMP 2022:</strong> Hasan, Z., <b>Dey, E.</b>, Ramamurthy, S. R., Roy, N., and Misra, A. "RhythmEdge: Enabling Contactless Heart Rate Estimation on the Edge." Best Paper Award.</li>
-          <li><strong>SPIE 2022:</strong> Ovi, P. R., <b>Dey, E.</b>, Roy, N., Gangopadhyay, A., and Erbacher, R. F. "Towards developing a data security aware federated training framework in multi-modal contested environments." Best Paper Award.</li>
-        </ul>
+        <h2>All Publications</h2>
+        <p class="section-note">
+          Each publication keeps editable slots for paper, proceedings, code, and project links.
+          Replace any <code>#</code> href when you are ready to add a new link.
+        </p>
+        <div class="publication-list">
+          <details class="publication-card" open>
+            <summary><span>ICML 2026</span> FedQueue: Queue-Aware Federated Learning for Cross-Facility HPC Training</summary>
+            <p>Li, Y., <b>Dey, E.</b>, Li, Z., Raghavan, K., Madduri, R., and Kim, K.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>PerCom 2026</span> Fed-CASQ: Enhancing Class-Wise Accuracy in Pervasive Federated Learning with Class-Aware Scaling and Quantization</summary>
+            <p><b>Dey, E.</b>, Ravi, A., Shinde, G., Chugh, G., Ghosh, I., Misra, A., and Roy, N.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>ISVLSI 2026</span> FedGALP: Federated Generative Adversarial Learning for Remote Photoplethysmography</summary>
+            <p><b>Dey, E.</b>, Hasan, Z., and Roy, N.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>ICCCN 2026</span> SERN: Simulation-Enhanced Realistic Navigation for Multi-Agent Robotic Systems in Contested Environments</summary>
+            <p>Hossain, J., <b>Dey, E.</b>, Chugh, S., Ahmed, M., Anwar, M. S., Faridee, A. Z., and Roy, N.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>WIREs DMKD 2025</span> A Survey on Efficient Vision-Language Models</summary>
+            <p>Gaurav Shinde, Anuradha Ravi, <b>Emon Dey</b>, Shadman Sakib, Milind Rampure, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70036">Paper</a>
+              <a href="https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70036">Proceedings / journal page</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>ACM TAAS 2025</span> MobHeteroCAS: Mobility-Aware DNN Task Scheduling in Heterogeneous Collaborative Autonomous System</summary>
+            <p>Mohammad Saeid Anwar, Anuradha Ravi, <b>Emon Dey</b>, Indrajeet Ghosh, Masud Ahmed, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings / journal page: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>DCOSS-IoT 2025</span> CoOpTex: Multimodal Cooperative Perception and Task Execution in Time-critical Distributed Autonomous System</summary>
+            <p>Mohammad Saeid Anwar, Anuradha Ravi, <b>Emon Dey</b>, Indrajeet Ghosh, Masud Ahmed, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>PeRConAI 2025</span> TAVIC-DAS: Task and Channel-Aware Variable-Rate Image Compression for Distributed Autonomous System</summary>
+            <p>Gaurav Shinde, Anuradha Ravi, <b>Emon Dey</b>, Jared Lewis, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SMARTCOMP 2025</span> E2RespUNet: End-to-End Respiratory Signal Reconstruction and Rate Prediction Using an Unified Attention-Enhanced U-Net</summary>
+            <p>Shadman Sakib, Gaurav Shinde, <b>Emon Dey</b>, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>COMSNETS 2025</span> DACC-Comm: DNN-Powered Adaptive Compression and Flow Control for Robust Communication in Network-Constrained Environment</summary>
+            <p><b>Emon Dey</b>, Anuradha Ravi, Jared Lewis, Vinay Krishna Kumar, Jade Freeman, Timothy Gregory, Niranjan Suri, Carl Busart, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>MASS 2023</span> HeteroEdge: Addressing Asymmetry in Heterogeneous Collaborative Autonomous Systems</summary>
+            <p>Mohammad Saeid Anwar, <b>Emon Dey</b>, Maloy Kumar Devnath, Indrajeet Ghosh, Naima Khan, Jade Freeman, Timothy Gregory, Niranjan Suri, Kasthuri Jayarajah, Sreenivasan Ramasamy Ramamurthy, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/10298549">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/10298549">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>ICCCN 2023</span> A Novel ROS2 QoS Policy-enabled Synchronizing Middleware for Co-simulation of Heterogeneous Multi-Robot Systems</summary>
+            <p><b>Emon Dey</b>, Mikolaj Walczak, Mohammad Saeid Anwar, Nirmalya Roy, Jade Freeman, Timothy Gregory, Niranjan Suri, and Carl Busart.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/document/10230109">Paper</a>
+              <a href="https://ieeexplore.ieee.org/document/10230109">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SMARTCOMP 2023</span> A Systematic Study on Object Recognition Using Millimeter-wave Radar</summary>
+            <p>Maloy Kumar Devnath, Avijoy Chakma, Mohammad Saeid Anwar, <b>Emon Dey</b>, Zahid Hasan, Marc Conn, Biplab Pal, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/document/10207645">Paper</a>
+              <a href="https://ieeexplore.ieee.org/document/10207645">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>CVPRW FedVision 2023</span> Mixed Quantization Enabled Federated Learning to Tackle Gradient Inversion Attacks</summary>
+            <p>Pretom Roy Ovi, <b>Emon Dey</b>, Nirmalya Roy, and Aryya Gangopadhyay.</p>
+            <div class="resource-links">
+              <a href="https://openaccess.thecvf.com/content/CVPR2023W/FedVision/papers/Ovi_Mixed_Quantization_Enabled_Federated_Learning_To_Tackle_Gradient_Inversion_Attacks_CVPRW_2023_paper.pdf">Paper</a>
+              <a href="https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Ovi_Mixed_Quantization_Enabled_Federated_Learning_To_Tackle_Gradient_Inversion_Attacks_CVPRW_2023_paper.html">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>DCOSS 2022</span> SynchroSim: An Integrated Co-simulation Middleware for Heterogeneous Multi-robot System</summary>
+            <p><b>Emon Dey</b>, Jumman Hossain, Nirmalya Roy, and Carl Busart.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9881671">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9881671">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SMARTCOMP 2022</span> RhythmEdge: Enabling Contactless Heart Rate Estimation on the Edge <em>Best Paper Award</em></summary>
+            <p>Zahid Hasan, <b>Emon Dey</b>, Sreenivasan Ramasamy Ramamurthy, Nirmalya Roy, and Archan Misra.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9821103">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9821103">Proceedings</a>
+              <a href="https://github.com/Emon-dey/Device-implementation-of-rppg">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SPIE 2022</span> Towards developing a data security aware federated training framework in multi-modal contested environments <em>Best Paper Award</em></summary>
+            <p>Pretom Roy Ovi, <b>Emon Dey</b>, Nirmalya Roy, Aryya Gangopadhyay, and Robert F. Erbacher.</p>
+            <div class="resource-links">
+              <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12113/121130M/Towards-developing-a-data-security-aware-federated-training-framework-in/10.1117/12.2618904.short?SSO=1">Paper</a>
+              <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12113/121130M/Towards-developing-a-data-security-aware-federated-training-framework-in/10.1117/12.2618904.short?SSO=1">Proceedings</a>
+              <a href="https://github.com/Emon-dey/Classification-via-Multi-modal-data">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>BIBE 2020</span> OMAD: On-Device Mental Anomaly Detection for Substance and Non-Substance Users</summary>
+            <p><b>Emon Dey</b> and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9288008">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9288008">Proceedings</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SMARTCOMP 2021</span> ARIS: A Real Time Edge Computed Accident Risk Inference System</summary>
+            <p>Pretom Roy Ovi*, <b>Emon Dey</b>*, Nirmalya Roy, and Aryya Gangopadhyay. *Equal contribution.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9556252">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9556252">Proceedings</a>
+              <a href="https://github.com/Emon-dey/Accident-risk-prediction">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>I2CT 2019</span> A Color Image Watermarking Scheme Employing the Features of Directive Contrast in the DWT-SVD Domain</summary>
+            <p>Arnab Neelim Mazumder, <b>Emon Dey</b>, and Sharmin Majumder.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9033597">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9033597">Proceedings</a>
+              <a href="https://github.com/Emon-dey/Directive-Contrast">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>EICT 2017</span> A new approach to color image watermarking based on joint DWT-SVD domain in YIQ color space</summary>
+            <p><b>Emon Dey</b>, Sharmin Majumder, and Arnab Neelim Mazumder.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8275190">Paper</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8275190">Proceedings</a>
+              <a href="https://github.com/Emon-dey/DWT-SVD">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>SMARTCOMP 2022 Demo</span> Demo: RhythmEdge: Enabling Contactless Heart Rate Estimation on the Edge</summary>
+            <p>Hasan, Z., <b>Dey, E.</b>, Ramamurthy, S. R., Roy, N., and Misra, A.</p>
+            <div class="resource-links">
+              <a href="https://ieeexplore.ieee.org/document/9821075">Paper</a>
+              <a href="https://ieeexplore.ieee.org/document/9821075">Proceedings</a>
+              <a href="https://github.com/Emon-dey/Device-implementation-of-rppg">Code</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>Under Review</span> The Foundations of Ensemble Continual Learning in Federated Learning</summary>
+            <p>Raghavan, K., <b>Dey, E.</b>, Hahn, S., Munson, T., Li, Y., and Kim, K.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+          <details class="publication-card">
+            <summary><span>In Preparation</span> Adaptive Transformer-Based Compressive Sensing for Communication-Efficient Federated Learning</summary>
+            <p><b>Emon Dey</b>, Anuradha Ravi, Vinay Krishna Kumar, Jared Lewis, Jade Freeman, Timothy Gregory, Niranjan Suri, Carl Busart, and Nirmalya Roy.</p>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Paper: add link</a>
+              <a href="#" aria-disabled="true">Proceedings: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+            </div>
+          </details>
+        </div>
       </article>
 
       <article class="tab-panel" id="projects">
         <h2>Technical Projects</h2>
+        <p class="section-note">
+          Projects are expandable. Add links, images, demos, datasets, or extra bullets inside each card as the work matures.
+        </p>
         <div class="project-list">
-          <section>
-            <h3>SYNAPS-I: Vision Transformer for Real-Time Ptychographic Reconstruction</h3>
-            <p>Designed a physics-aware Vision Transformer and optimized large-scale training workflows, including scaling to 24,576 GPUs for DOE supercomputer deployment.</p>
-          </section>
-          <section>
-            <h3>FedQueue: Queue-Aware Federated Learning for Cross-Facility HPC Training</h3>
-            <p>Built asynchronous federated learning methods that account for queue delays across Aurora, Perlmutter, Polaris, and Frontier.</p>
-          </section>
-          <section>
-            <h3>Robust Federated Learning for Autonomous Cyber-Physical Systems</h3>
-            <p>Developed adaptive quantization, compression, and class-aware scaling methods for non-IID data and network-constrained autonomous systems.</p>
-          </section>
+          <details class="project-card" open>
+            <summary>Project 1: SYNAPS-I: Synergistic Neutron and Photon Autonomous Science-Imaging <span>Oct. 2025 - Ongoing</span></summary>
+            <ul>
+              <li>Designed a physics-aware Vision Transformer for 2D ptychography generalized across thousands of probes.</li>
+              <li>Optimized the ViT model for large-scale training on Perlmutter and Aurora, scaling up to 24,576 GPUs.</li>
+              <li>Designed a fine-tuning pipeline with the trained ViT model to facilitate real-time deployment at the beamline.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="https://www.aps.anl.gov/APS-News/2026-04-02/real-time-ai-engine-poised-to-revolutionize-large-scale-imaging-data-at">APS News</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#" aria-disabled="true">Demo / media: add link</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Project 2: GridMind: Powering the Control Room of the Future with AI Agents <span>Mar. 2026 - Ongoing</span></summary>
+            <ul>
+              <li>Investigating data and model scaling performance of the proposed Lumina model with heterogeneous graph architecture.</li>
+              <li>Designing IsoFLOP experiments to reveal compute-optimal balance between model size and training data allocation.</li>
+              <li>Deploying the Lumina model across multiple DOE supercomputers to conduct federated training.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="https://www.anl.gov/article/gridmind-powering-the-control-room-of-the-future-with-ai-agents">Argonne MCS News</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#" aria-disabled="true">Demo / media: add link</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Project 3: AI4S Continual Federated Learning under Intermittent Client Participation <span>Jun. 2025 - Ongoing</span></summary>
+            <ul>
+              <li>Collaborating to develop the foundations of ensemble continual learning in federated learning settings.</li>
+              <li>Explored the impact of arbitrary arrival and dropping-off of client nodes on server aggregation.</li>
+              <li>Designed the experimental setting to test the proposed ensemble continual learning algorithm.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Project page: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#publications">Related manuscript</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Project 4: AI4S Asynchronous Federated Learning for High Performance Computing <span>Aug. 2025 - Ongoing</span></summary>
+            <ul>
+              <li>Tackled varied queuing time across multiple DOE supercomputers while deploying federated learning.</li>
+              <li>Implemented a queue-delay-aware asynchronous training framework and tested it in simulation.</li>
+              <li>Successfully deployed the proposed framework across Aurora, Perlmutter, Polaris, and Frontier.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Project page: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#publications">Related publication</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Remote Robotic Experimentation using Distributed Virtual Proving Ground, DEVCOM ARL <span>Summer 2021 - Spring 2025</span></summary>
+            <ul>
+              <li>Demonstrated components that leverage ARL's Distributed Virtual Proving Ground infrastructure.</li>
+              <li>Conducted field experimentation to demonstrate class-incremental federated learning.</li>
+              <li>Deployed a lightweight simultaneous localization and mapping system on Clearpath Jackal and SPOT.</li>
+              <li>Monitored robotic agents' movements and actions from a long-distance remote location.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="https://artiamas.umd.edu/2023-field-experiment/">Project coverage</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="https://www.cbsnews.com/baltimore/news/cutting-edge-umbc-research-uses-artificial-intelligence-and-robots-to-assist-national-security/">CBS News</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Robust Deep Learning Models for Securing Multi-domain Autonomous Cyber-Physical Systems, ONR <span>Spring 2023 - Spring 2025</span></summary>
+            <ul>
+              <li>Developed a model-poisoning-attack-resistant federated learning approach for camouflaged and occluded object detection.</li>
+              <li>Developed a robust federated learning approach for camouflaged and occluded multi-class object detection.</li>
+              <li>Integrated adaptive quantization-based compressive modeling to reduce communication overhead.</li>
+              <li>Tackled global and local class imbalances using customized Layer-wise Relevance Propagation.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Project page: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#publications">Related publications</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Resilient and Effective Communication and Sensing for Autonomous Platforms and Systems, NSF <span>Spring 2021 - Spring 2025</span></summary>
+            <ul>
+              <li>Explored communication challenges in non-line-of-sight scenarios within ROS-compatible networks.</li>
+              <li>Designed data-security-aware low-power communication protocols in adversarial contexts.</li>
+              <li>Proposed a modified sliding-window protocol for high velocity disparity among robotic agents.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Project page: add link</a>
+              <a href="#" aria-disabled="true">Code: add link</a>
+              <a href="#publications">Related publications</a>
+            </div>
+          </details>
+          <details class="project-card">
+            <summary>Asynchronous Federated Training in Multi-Modal Contested Environment, DEVCOM ARL <span>Fall 2022 - Spring 2024</span></summary>
+            <ul>
+              <li>Developed a multi-modal deep model for object detection using image and acoustic data in contested environments.</li>
+              <li>Addressed data distribution, synchronization, communication overhead, and security issues for asynchronous federated learning.</li>
+              <li>Proposed a multi-modal federated training setup to reduce resource overhead using 2-bit quantization-based compression.</li>
+            </ul>
+            <div class="resource-links">
+              <a href="#" aria-disabled="true">Project page: add link</a>
+              <a href="https://github.com/Emon-dey/Classification-via-Multi-modal-data">Code</a>
+              <a href="#publications">Related publication</a>
+            </div>
+          </details>
         </div>
+        <h3 class="subsection-title">Project Showcase</h3>
+        <ul class="timeline">
+          <li>August 1, 2024: Cross-institutional Remote Robotics Experimentation using ARL's Distributed Virtual Proving Ground Facility, ARL R2C2, Graces Quarters, Maryland.</li>
+          <li>August 2, 2023: Enhancing Situational Awareness with Federated Learning using DVPG, ARL R2C2, Graces Quarters, Maryland.</li>
+          <li>August 2, 2022: AI-Enabled Decision Making in Multiple Domains, ARL R2C2, Graces Quarters, Maryland.</li>
+          <li>April 27, 2022: Deploying Federated Learning via ARL's DVPG Network, RetriEVER Empowered, UMBC.</li>
+        </ul>
       </article>
 
       <article class="tab-panel" id="experience">
         <h2>Experience</h2>
         <ul class="timeline">
           <li>
-            <strong>Postdoctoral Appointee</strong>
-            <span>Argonne National Laboratory, Apr. 2025 - Present</span>
-            <p>Building and scaling AI models for scientific imaging, federated learning, and power-grid applications on leadership-class HPC systems.</p>
+            <strong>Postdoctoral Appointee, MCS Division</strong>
+            <span>Argonne National Laboratory, Apr. 2025 - Present, Lemont, IL</span>
+            <p>Advisor: <a href="https://www.anl.gov/profile/kibaek-kim">Dr. Kibaek Kim</a>.</p>
+            <p>Working on multi-modal Vision Transformers for diffraction imaging, queue-aware asynchronous federated learning for HPC, federated learning for electrical smart-grid systems, and continual federated learning.</p>
           </li>
           <li>
-            <strong>Graduate Research Assistant / Ph.D. Researcher</strong>
-            <span>University of Maryland, Baltimore County, Aug. 2019 - Apr. 2025</span>
-            <p>Developed robust federated learning algorithms, model compression methods, and ROS/ROS2 experimentation pipelines.</p>
+            <strong>Graduate Research Assistant, CARDS Lab</strong>
+            <span>University of Maryland, Baltimore County, Aug. 2021 - Apr. 2025, Baltimore, MD</span>
+            <p>Conducted research on decentralized multi-master ROS systems for communication between UAVs and UGVs, remote robotic experimentation, and robust federated learning for autonomous systems.</p>
+          </li>
+          <li>
+            <strong>Graduate Research Assistant, MPSC Lab</strong>
+            <span>University of Maryland, Baltimore County, Aug. 2019 - Jul. 2020, Baltimore, MD</span>
+            <p>Worked on accelerating transfer learning on edge devices by reducing negative transfer and developed DeepIoT for human activity recognition on IoT devices using deep models.</p>
+          </li>
+          <li>
+            <strong>Graduate Teaching Assistant, Department of Information Systems</strong>
+            <span>University of Maryland, Baltimore County, Aug. 2020 - May 2021, Baltimore, MD</span>
+            <p>Supported courses on Decision Support Systems, Machine Learning Basics, and Database Application Development.</p>
           </li>
           <li>
             <strong>Lecturer</strong>
             <span>Port City International University, Sep. 2018 - Jul. 2019</span>
             <p>Taught undergraduate electrical engineering courses including machine design, power systems, and digital signal processing.</p>
           </li>
+          <li>
+            <strong>Student Mentor, NSF-REU</strong>
+            <span>University of Maryland, Baltimore County, Summer 2021, 2022, 2023</span>
+            <p>Supervised student projects in multi-robot middleware, contactless heart-rate monitoring, quantized federated learning, and statistical heterogeneity in federated learning for sea-ship datasets.</p>
+          </li>
         </ul>
+      </article>
+
+      <article class="tab-panel" id="teaching">
+        <h2>Teaching and Mentoring</h2>
+        <div class="card-grid">
+          <div class="info-card">
+            <h3>Lecturer, Port City International University</h3>
+            <p>Digital Signal Processing, Professional Ethics, Power Systems, High Voltage Engineering, Electrical Services Design, and Electrical Machine Design.</p>
+          </div>
+          <div class="info-card">
+            <h3>Teaching Assistant, UMBC</h3>
+            <p>IS425 Decision Support Systems, machine learning basics, and database application development.</p>
+          </div>
+          <div class="info-card">
+            <h3>NSF-REU Mentor, UMBC</h3>
+            <p>Mentored projects on heterogeneous multi-robot co-simulation, contactless heart-rate monitoring, brain-tumor segmentation, and sea-ship federated learning.</p>
+          </div>
+        </div>
       </article>
 
       <article class="tab-panel" id="skills">
         <h2>Technical Skills</h2>
         <div class="skill-grid">
           <div><strong>Programming</strong><span>Python, C, C++, MATLAB, R, Bash, LaTeX</span></div>
-          <div><strong>AI/ML</strong><span>PyTorch, DDP, TensorFlow, Keras, Vision Transformers, GNNs, quantization</span></div>
-          <div><strong>HPC</strong><span>MPI, OpenMP, Slurm, PBS, NCCL/CCL, multi-node GPU/XPU training</span></div>
-          <div><strong>Tools</strong><span>Linux, Docker, Git, Weights & Biases, APPFL, FedML, ROS/ROS2, OpenCV</span></div>
-          <div><strong>Systems</strong><span>Aurora, Polaris, Perlmutter, Frontier, Jetson Nano, Raspberry Pi, Intel NCS2</span></div>
+          <div><strong>High Performance Computing</strong><span>MPI, OpenMP, PyTorch Distributed, Slurm, PBS, NCCL/CCL, multi-node GPU/XPU training</span></div>
+          <div><strong>AI/ML</strong><span>PyTorch, TensorFlow, Keras, Vision Transformers, Graph Neural Networks, Federated Learning, Generative AI, model compression, quantization</span></div>
+          <div><strong>Simulation</strong><span>Gazebo, MAVROS, PX4, Unity3D, NS-3, WEKA, Tableau</span></div>
+          <div><strong>Specialized Tools</strong><span>OpenCV, TFF, PySyft, FedML, APPFL, TF-Lite, ONNX, Q-Keras, ROS/ROS2</span></div>
+          <div><strong>Hardware and Systems</strong><span>Aurora, Polaris, Perlmutter, Frontier, Raspberry Pi, Jetson Nano, Google Coral Dev Board, Intel NCS2, Arduino</span></div>
+          <div><strong>Engineering Tools</strong><span>Linux, Docker, Git, shell scripting, Weights & Biases</span></div>
+          <div><strong>Soft Skills</strong><span>Leadership, communication, goal-oriented execution, problem solving, adaptability</span></div>
         </div>
       </article>
 
@@ -203,19 +591,77 @@
         <h2>Awards and Highlights</h2>
         <ul>
           <li>Best Paper Awards at IEEE SMARTCOMP 2022 and SPIE 2022.</li>
-          <li>Research projects featured by CBS News Baltimore and APS News, Argonne National Laboratory.</li>
+          <li><a href="https://www.aps.anl.gov/APS-News/2026-04-02/real-time-ai-engine-poised-to-revolutionize-large-scale-imaging-data-at">SYNAPS-I real-time AI imaging project</a> featured by APS News, Argonne National Laboratory, 2026.</li>
+          <li><a href="https://www.anl.gov/article/gridmind-powering-the-control-room-of-the-future-with-ai-agents">GridMind agentic AI project</a> featured by Argonne MCS News, 2026.</li>
+          <li><a href="https://www.cbsnews.com/baltimore/news/cutting-edge-umbc-research-uses-artificial-intelligence-and-robots-to-assist-national-security/">Remote robotics experimentation project</a> featured by CBS News Baltimore, 2023.</li>
           <li>Student travel grants for BIBE 2020, SPIE 2022, DCOSS 2022, and ICCCN 2023.</li>
           <li>Audience choice award at UMBC IS Research Symposium.</li>
         </ul>
       </article>
 
+      <article class="tab-panel" id="talks">
+        <h2>Presentations and Talks</h2>
+        <ul class="timeline">
+          <li>April 15, 2025: "Quantized Federated Learning over Data Imbalance and Lossy Communication Channels," IS 698/800 Advanced Deep Learning Techniques.</li>
+          <li>October 17, 2024: "Introduction to Crazyflie Functionalities and ROS Integration," IS 709/809 Computational Methods for IS Research.</li>
+          <li>September 17, 2024: "Towards Resilient and Secure Federated Learning: Tackling Non-IID Data, Communication Challenges, and Data Security Threats," Argonne MCS Candidate Seminar.</li>
+          <li>February 21-22, 2024: "Resilient and Effective Communication and Sensing for Autonomous Vehicles and Systems," ArtIAMAS Winter Meeting and Annual Review.</li>
+          <li>February 13-14, 2023: "A Reliable and Low-latency Synchronizing Middleware for Co-simulation of a Heterogeneous Multi-robot System," ArtIAMAS Year 3 Kickoff Meeting.</li>
+          <li>September 29, 2022: "Robot Operating System (ROS)," IS 709/809 Computational Methods for IS Research.</li>
+          <li>March 16-17, 2022: "Decentralized Multi-master ROS System for Communication Between UGVs and UAVs," ArtIAMAS Annual Review.</li>
+          <li>November 3, 2020: "Neural Networks," IS 425 Decision Support Systems.</li>
+        </ul>
+        <h3 class="subsection-title">Relevant Graduate Courses</h3>
+        <div class="tag-row">
+          <span>Robot Operating Systems</span>
+          <span>Statistical Machine Learning</span>
+          <span>Deep Learning</span>
+          <span>Neuromorphic Computing</span>
+          <span>Computational Methods for IS Research</span>
+          <span>Smart Home Health Analytics</span>
+          <span>Natural Language Processing</span>
+        </div>
+      </article>
+
       <article class="tab-panel" id="service">
         <h2>Professional Activities</h2>
         <ul>
-          <li>Reviewer for Pervasive and Mobile Computing, ACM ICDCN, IEEE Intelligent Environments, BDCAT, IEEE SMARTCOMP, IEEE CHASE, IEEE PerCom, TIST, and related workshops.</li>
+          <li>Reviewer for TMC, TIOT, TIST, Pervasive and Mobile Computing, ACM ICDCN, IEEE Intelligent Environments, BDCAT, IEEE PerCom, IEEE SMARTCOMP, DCOSS-IoT, COMSNETS, IEEE CHASE, REU Symposium, and WristSense workshop.</li>
           <li>Student volunteer at IEEE PerCom 2025 in Washington, DC.</li>
           <li>Student mentor for NSF-REU projects in federated learning, robotics middleware, and edge sensing at UMBC.</li>
+          <li>Student member of the Society of Photo-Optical Instrumentation Engineers.</li>
         </ul>
+      </article>
+
+      <article class="tab-panel" id="links">
+        <h2>Helpful Resources</h2>
+        <div class="link-grid">
+          <section>
+            <h3>Edge Computing</h3>
+            <a href="https://www.forbes.com/sites/janakirammsv/2017/09/15/demystifying-edge-computing-device-edge-vs-cloud-edge/">Demystifying Edge Computing</a>
+            <a href="https://www.ge.com/digital/blog/six-important-questions-ask-your-edge-computing-provider">What is edge computing?</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-319-05029-4_7">Fog Computing: A Platform for IoT and Analytics</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/7807196">The Emergence of Edge Computing</a>
+          </section>
+          <section>
+            <h3>Federated Learning and Model Compression</h3>
+            <a href="https://www.tensorflow.org/federated/tutorials/tutorials_overview">TensorFlow Federated Tutorials</a>
+            <a href="https://flower.dev/">Flower</a>
+            <a href="https://github.com/chaoyanghe/Awesome-Federated-Learning">Awesome Federated Learning</a>
+            <a href="https://github.com/chester256/Model-Compression-Papers">Model Compression Papers</a>
+            <a href="https://www.tensorflow.org/model_optimization/guide">TensorFlow Model Optimization</a>
+          </section>
+          <section>
+            <h3>Robot Operating Systems</h3>
+            <a href="http://wiki.ros.org/">Official ROS Website</a>
+            <a href="http://wiki.ros.org/ROS/Tutorials">ROS Tutorials</a>
+            <a href="https://index.ros.org/packages/">ROS Index</a>
+            <a href="https://discourse.ros.org/">ROS Discourse</a>
+            <a href="http://wiki.ros.org/rosbag/Commandline/">ROSbag Data Collection</a>
+            <a href="https://github.com/USC-ACTLab/crazyswarm">Swarm robotics with Crazyflie</a>
+            <a href="https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/">Mapping and Navigation with Turtlebot</a>
+          </section>
+        </div>
       </article>
     </section>
   </main>
@@ -223,39 +669,39 @@
   <script>
     const newsItems = [
       {
-        date: 'Oct. 2025',
-        title: 'Fed-CASQ accepted at IEEE PerCom 2026',
-        copy: '"Fed-CASQ: Enhancing Class-Wise Accuracy in Pervasive Federated Learning with Class-Aware Scaling and Quantization" was accepted as a full paper in the main track.',
-        link: '#publications',
-        linkText: 'View publication'
+        date: 'Apr. 2026',
+        title: 'SYNAPS-I featured by APS News',
+        copy: 'The Argonne project on a real-time AI engine for large-scale imaging data at beamlines was featured by APS News.',
+        link: 'https://www.aps.anl.gov/APS-News/2026-04-02/real-time-ai-engine-poised-to-revolutionize-large-scale-imaging-data-at',
+        linkText: 'Read feature'
       },
       {
-        date: 'Apr. 2025',
-        title: 'Joined Argonne National Laboratory',
-        copy: 'Started as a Postdoctoral Appointee in the Mathematics and Computer Science Division, working on AI for science, federated learning, and distributed HPC training.',
-        link: '#experience',
-        linkText: 'View experience'
+        date: '2026',
+        title: 'GridMind featured by Argonne MCS News',
+        copy: 'The GridMind project is developing an agentic AI system as a reasoning co-pilot for power-system operators.',
+        link: 'https://www.anl.gov/article/gridmind-powering-the-control-room-of-the-future-with-ai-agents',
+        linkText: 'Read feature'
       },
       {
-        date: 'Apr. 2025',
-        title: 'Efficient VLM survey accepted',
-        copy: 'The collaborative survey "A Survey on Efficient Vision-Language Models" was accepted in WIREs Data Mining and Knowledge Discovery.',
-        link: 'https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.70036',
-        linkText: 'Open article'
-      },
-      {
-        date: 'Apr. 2025',
-        title: 'E2RespUNet accepted at SMARTCOMP 2025',
-        copy: 'Contributed to the system prototype for an end-to-end respiratory signal reconstruction and rate prediction framework.',
+        date: '2026',
+        title: '2026 publication pipeline updated',
+        copy: 'FedQueue, Fed-CASQ, FedGALP, SERN, and ensemble continual learning work are listed in the publication record.',
         link: '#publications',
         linkText: 'View publications'
       },
       {
-        date: 'Mar. 2025',
-        title: 'CoOpTex accepted at DCOSS-IoT 2025',
-        copy: 'Collaborative work on multimodal cooperative perception and task execution in time-critical distributed autonomous systems was accepted.',
-        link: '#projects',
-        linkText: 'View projects'
+        date: 'Apr. 2025',
+        title: 'Joined Argonne National Laboratory',
+        copy: 'Started as a Postdoctoral Appointee in the Mathematics and Computer Science Division, advised by Dr. Kibaek Kim.',
+        link: '#experience',
+        linkText: 'View experience'
+      },
+      {
+        date: '2025',
+        title: '2025 publications and projects updated',
+        copy: 'The page now includes WIREs DMKD, PeRConAI, SMARTCOMP, DCOSS-IoT, and COMSNETS publications from 2025.',
+        link: '#publications',
+        linkText: 'View publications'
       }
     ];
 
@@ -303,6 +749,10 @@
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener('click', (event) => {
         const target = anchor.getAttribute('href').slice(1);
+        if (!target) {
+          event.preventDefault();
+          return;
+        }
         if (document.getElementById(target)?.classList.contains('tab-panel')) {
           event.preventDefault();
           activateTab(target, true);
