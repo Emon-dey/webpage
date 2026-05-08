@@ -546,18 +546,24 @@
 
     panel.classList.add('is-visible');
 
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener('click', (event) => {
-        const target = anchor.getAttribute('href').slice(1);
-        if (!target) {
-          event.preventDefault();
-          return;
-        }
-        if (document.getElementById(target)?.classList.contains('tab-panel')) {
-          event.preventDefault();
-          activateTab(target, true);
-        }
-      });
+    document.addEventListener('click', (event) => {
+      const anchor = event.target.closest('a[href]');
+      if (!anchor) {
+        return;
+      }
+      const href = anchor.getAttribute('href');
+      if (!href.startsWith('#')) {
+        return;
+      }
+      const target = href.slice(1);
+      if (!target) {
+        event.preventDefault();
+        return;
+      }
+      if (document.getElementById(target)?.classList.contains('tab-panel')) {
+        event.preventDefault();
+        activateTab(target, true);
+      }
     });
   </script>
 </body>
