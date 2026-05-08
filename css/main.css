@@ -333,13 +333,12 @@ h3 {
 }
 
 .subsection-title {
-  margin-top: 24px;
+  margin-top: 44px;
   margin-bottom: 12px;
 }
 
 .info-card,
 .project-card,
-.publication-card,
 .skill-grid div {
   padding: 18px;
   border: 1px solid var(--line);
@@ -356,19 +355,16 @@ h3 {
   margin-bottom: 15px;
 }
 
-.publication-list,
 .project-list {
   display: grid;
   gap: 14px;
 }
 
-.publication-card,
 .project-card {
   padding: 0;
   overflow: hidden;
 }
 
-.publication-card summary,
 .project-card summary {
   display: block;
   padding: 16px 18px;
@@ -378,12 +374,10 @@ h3 {
   line-height: 1.35;
 }
 
-.publication-card summary::-webkit-details-marker,
 .project-card summary::-webkit-details-marker {
   display: none;
 }
 
-.publication-card summary::after,
 .project-card summary::after {
   content: "+";
   float: right;
@@ -392,12 +386,10 @@ h3 {
   font-weight: 700;
 }
 
-.publication-card[open] summary::after,
 .project-card[open] summary::after {
   content: "-";
 }
 
-.publication-card summary span,
 .project-card summary span {
   display: block;
   margin-bottom: 4px;
@@ -405,7 +397,6 @@ h3 {
   font-size: 0.86rem;
 }
 
-.publication-card p,
 .project-card ul {
   margin: 0;
   padding: 0 18px 14px;
@@ -417,9 +408,28 @@ h3 {
   padding-left: 38px;
 }
 
-.publication-card em {
-  color: var(--accent-dark);
-  font-style: normal;
+.publication-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.publication-list li {
+  margin-bottom: 12px;
+}
+
+.publication-list p {
+  margin: 0;
+  color: #344256;
+  line-height: 1.5;
+}
+
+.publication-list strong {
+  color: var(--ink);
+}
+
+.pub-links {
+  margin-top: 3px;
+  font-size: 0.93rem;
 }
 
 .resource-links {
